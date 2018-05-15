@@ -1,0 +1,89 @@
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Concert One', cursive; */
+
+
+
+body {
+  background-image: url(images/earthPorn.jpg);
+  background-size: cover;
+  
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+
+}
+
+html {
+  font-size: 62.5%;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Archivo Black', cursive;
+}
+
+h1 {
+  color: peachpuff;
+  font-size: 6rem;
+}
+
+.redditPost h2{
+  align-self: flex-start;
+  font-family: 'roboto';
+  font-size: 2rem;
+}
+#wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    width: 100%;
+    padding: 1rem;
+    /* background-color: white; */
+    height: auto;
+    border-radius: 2rem;
+}
+
+.redditPost {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center; 
+  border-radius: 2rem;
+  background-color: rgba(255, 255, 255, 0.486);
+  width: 30%;
+  height: auto;
+  border: 2px solid lightgrey;
+  padding: 1rem;
+  margin: .75rem;
+}
+
+.redditPost img {
+  width: 100%;
+  height: auto;
+  max-height: 40rem;;
+  box-shadow: 0 0 10px .5px rgba(100, 100, 100, 0.788);
+  transition: .3s all;
+  border-radius: 2rem;
+}
+
+
+.redditPost a {
+  font-size: 1.5rem;
+  color: white;
+  background-color: rgba(110, 31, 126, 0.808);
+  padding: .7rem 1rem;;
+  border-radius: 2rem;
+  text-decoration: none;
+  margin-top: 1rem;
+
+}
+
+
+.redditPost a:hover{
+  box-shadow: 1px 1px 5px 1px grey;
+  transform: translateY(3px);
+}
+
